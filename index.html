@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Who are you!</title>
+        <style>
+             .divQuestions{
+                 Background-color: dimgray
+             }
+        </style>
+    </head>
+    <body>
+        <header>
+        <p>Tell me about yourself.</p>
+        </header>
+        <main>
+            <div class ="divQuestions">
+            <h1>Class 1 Lab</h1>
+            </div>
+            <p style = "color:yellow;background-color:dimgray">
+                What is your Name?</p>
+            <p style = "color:blue;background-color:black">
+                What is your Favorite Colored Shirt?</p>
+            <p style = "color:red;background-color:dimgray">
+                What is your Favorite Location?</p>
+            <p style = "color:limegreen;background-color:black">
+                What is your Favorite Time of Day?</p>
+        </main>
+
+        <footer>
+            <!--Answers will be concatenated here.-->
+            <p id ="Replies"></p>
+        </footer>
+    </body>
+    <script>
+        // Variable Definitions and Assigned Values go here
+        // Make four prompts
+
+        let firstPart = prompt("What is your name?");
+        console.log(firstPart);
+        
+        let secondPart = prompt("What color is your favorite shirt?");
+        console.log(secondPart);
+
+        let thirdPart = prompt("What is your Favorite Location?");
+        console.log(thirdPart);
+
+        let fourthPart = prompt("What is your Favorite Time of Day?");
+        console.log(fourthPart);
+
+        document.getElementById("Replies").innerHTML = "Hey " + firstPart + " with the " + secondPart
+         + " shirt. I hope you get to spend plenty of time at " + thirdPart + " during the " + fourthPart;
+             
+    </script>
+</html>
