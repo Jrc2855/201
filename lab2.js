@@ -1,15 +1,21 @@
 function firstQuestion(){
     let firstOne = prompt("Do you know my name?");
     console.log(firstOne);
+    if(firstOne == "no"){
+        alert("My name is John Chavez");
+    } else {
+        (firstOne == "yes");
+        { alert("Thank you for remembering it!")}
+    }
 }
 
 function secondQuestion(){
     let secondOne = prompt("Did you know that I have three kids?");
-    console.log(secondOne);
+    console.log(secondOne).innerHTML = secondOne.toLowerCase();
 }
 
 function thirdQuestion(){
-    let thirdOne = prompt("Did you know that I am currently living in Florida?");
+    let thirdOne = prompt("Am I currently living in Florida?");
     console.log(thirdOne);
 }
 
