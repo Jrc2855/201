@@ -1,0 +1,14 @@
+body{
+    background-color:rgb(170, 219, 192)
+}
+
+button{
+    Margin: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+img{
+    float: right;
+    margin-right: 30%;
+}
