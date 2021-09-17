@@ -59,8 +59,8 @@ if(fifthOne.toLowerCase() == "no"){
 }
 
 function getUserName(){
-let userName = prompt('What is your name? ')
-    return('Welcome to my profile ' + userName);
+    let userName = prompt('What is your name? ')
+        return('Welcome to my profile ' + userName);
 }
 
 function sixthQuestion(){    

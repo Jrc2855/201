@@ -19,5 +19,27 @@ img{
 }
 
 #intro{
-  border-style: thick black;
+  border-style: groove;
+  border-radius: 6px;
+  background-color: lavender;
+  font-size: 17px;
+}
+
+#work{
+  border-style: groove;
+  border-radius: 6px;
+  background-color:lavender;
+  font-size: 17px;
+}
+#school{
+  border-style: groove;
+  border-radius: 6px;
+  background-color:lavender;
+  font-size: 17px;
+}
+#facts{
+  border-style: groove;
+  border-radius: 6px;
+  background-color:lavender;
+  font-size: 17px;
 }
