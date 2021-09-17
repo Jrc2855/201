@@ -84,36 +84,30 @@ function sixthQuestion(){
         }
     }
 
+// I went over the recorded classroom video and used it to help me finish my final function. 
 function seventhQuestion(){
-
-    let correctNumber = 39;
-    let numberOfGuesses = 4;
-    let userGuess = '';
-    let userIsCorrect = false;
-
-    // set up a loop, to see if they have guesses left.
-    // if user has answer over 4 times, or they have guessed correctly end the game
-    for (let i = 0; i < numberOfGuesses; i++) {
-    // get the users response
-    // if you do have guesses left, ask the question again. 
-    userGuess = prompt('Guess a number between 0 and 100');
-
-    if (userGuess == correctNumber) {
-        userIsCorrect = true;
-        alert('thats right!')
-        break;
-    } else if (userGuess > correctNumber){
-        alert('your too high');
-    } else if (userGuess < correctNumber){
-        alert('your too low');
+    let numberOfGuesses = 6;
+    let favFuturamaCharacter = ['Fry', 'Bender', 'Leela', 'Farnsworth', 'Zoidberg', 'Amy', 'Hermes']
+    let correct = false;
+    while (numberOfGuesses > 0 && correct == false) {
+      let userGuess = prompt('Guess which Futurama character is my favorite');
+      for (let i =0; i < favFuturamaCharacter.length; i++) {
+        if (userGuess.toLowerCase() == favFuturamaCharacter[i].toLowerCase()) {
+          alert('thats correct');
+          totalCorrect++;
+          correct = true; 
+          break;
+       }
+      }    
+        if (!correct){  
+        numberOfGuesses--;
+        alert('Sorry thats wrong. You have ' + numberOfGuesses + ' guesses left')
+        } else{
+            alert('I am the man with no name. Zapp Brannigan, at your service.');
+        }
+        if (numberOfGuesses == 0){
+            alert(favFuturamaCharacter);
+        }
     }
-
-    if (!userIsCorrect) {
-        alert('You ran out of guesses')
-    } else {
-        alert('Great Job')
-    }
-    //
-
-    }
-}
+    
+}    
