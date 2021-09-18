@@ -1,0 +1,46 @@
+body{
+  background-color: rgb(50,134,134);
+}
+
+button{
+  Margin: 5px;
+  text-align: center;
+  cursor: pointer;
+  background-color: rgb(223,83,83);
+}
+
+img{
+  float: right;
+  margin-right: 30%;
+}
+
+#buttons{
+  margin: auto;
+  width: 80%;
+}
+
+#intro{
+  border-style: groove;
+  border-radius: 6px;
+  background-color: rgb(255,221,153);
+  font-size: 17px;
+}
+
+#work{
+  border-style: groove;
+  border-radius: 6px;
+  background-color:rgb(255,221,153);
+  font-size: 17px;
+}
+#school{
+  border-style: groove;
+  border-radius: 6px;
+  background-color:rgb(255,221,153);
+  font-size: 17px;
+}
+#facts{
+  border-style: groove;
+  border-radius: 6px;
+  background-color:rgb(255,221,153);
+  font-size: 17px;
+}
