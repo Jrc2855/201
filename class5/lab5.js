@@ -3,7 +3,7 @@
 
 function firstQuestion(){
     let firstOne = prompt("Do you know my name?");
-    /*console.log(firstOne);*/
+    console.log(firstOne);
     if(firstOne.toLowerCase() == "no"){
         alert("My name is John Chavez");
     } else {
@@ -14,7 +14,7 @@ function firstQuestion(){
 
 function secondQuestion(){
     let secondOne = prompt("Did you know that I have three kids?");
-    /*console.log(secondOne);*/
+    console.log(secondOne);
     if(secondOne.toLowerCase() == "no"){
         alert("They are 8 years old, 4 years old, and a 10 month old.");
     } else {
@@ -26,7 +26,7 @@ function secondQuestion(){
 
 function thirdQuestion(){
     let thirdOne = prompt("Am I currently living in Florida?");
-    /*console.log(thirdOne);*/
+    console.log(thirdOne);
     if(thirdOne.toLowerCase() == "no"){
         alert("I am unfortunately living in Florida.");
     } else {
@@ -37,7 +37,7 @@ function thirdQuestion(){
 
 function fourthQuestion(){
 let fourthOne = prompt("Is my favorite drink coffee?");
-/*console.log(fourthOne);*/
+console.log(fourthOne);
 if(fourthOne.toLowerCase() == "no"){
     alert("Wrong. I need my coffee!");
 } else {
@@ -49,7 +49,7 @@ if(fourthOne.toLowerCase() == "no"){
 
 function fifthQuestion(){
 let fifthOne = prompt("Do you like my page?");
-/*console.log(fifthOne);*/
+console.log(fifthOne);
 if(fifthOne.toLowerCase() == "no"){
     alert("You should.");
 } else {
